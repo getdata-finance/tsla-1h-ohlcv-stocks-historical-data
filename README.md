@@ -1,6 +1,6 @@
 # TSLA 1h OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-21_447_rows-blue)](https://getdata.finance/datasets/tsla) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/tsla)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-21_496_rows-blue)](https://getdata.finance/datasets/tsla) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/tsla)
 
 ### -> [**Download the full TSLA dataset on getdata.finance**](https://getdata.finance/datasets/tsla)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 1h OHLCV** for **Tesla** (US stocks)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1h`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/tsla) · **21,447** `1h` rows in the full archive
+- **Free evaluation sample** on GitHub (`1h`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/tsla) · **21,496** `1h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1h` sample updated in sync
 
-> **Sample on GitHub** · `TSLA_1h.csv` (889 rows, `2026-03-12` -> `2026-09-11`, 87.92 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/tsla)** — **21,447** `1h` rows (full `1m`: 615,796), **11 timeframes**, `2011-05-09` -> `2026-09-11`.
+> **Sample on GitHub** · `TSLA_1h.csv` (889 rows, `2026-03-23` -> `2026-09-22`, 85.57 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/tsla)** — **21,496** `1h` rows (full `1m`: 615,796), **11 timeframes**, `2011-05-09` -> `2026-09-22`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Tesla · US stocks | Tesla · US stocks |
 | Timeframes | `1h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1h rows | 889 | **21,447** |
-| Size | 87.92 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/tsla) |
-| Period | `2026-03-12` -> `2026-09-11` | `2011-05-09` -> `2026-09-11` |
+| 1h rows | 889 | **21,496** |
+| Size | 85.57 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/tsla) |
+| Period | `2026-03-23` -> `2026-09-22` | `2011-05-09` -> `2026-09-22` |
 | File | `TSLA_1h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/tsla) |
 | Coverage report | — | [TSLA coverage](https://getdata.finance/coverage/tsla) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`TSLA_1h.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-03-12T13:00:00+00:00 | 413.88 | 413.88 | 406.32 | 406.76 | 8273 |
-| 2026-03-12T14:00:00+00:00 | 406.76 | 408.28 | 400.58 | 401.52 | 17551 |
-| 2026-03-12T15:00:00+00:00 | 401.52 | 404.89 | 401.26 | 404.11 | 13738 |
-| 2026-03-12T16:00:00+00:00 | 404.11 | 406.81 | 402.83 | 405.71 | 11730 |
-| 2026-03-12T17:00:00+00:00 | 405.71 | 406.95 | 402.19 | 403.14 | 11325 |
+| 2026-03-23T13:00:00+00:00 | 374.1 | 388.29 | 374.1 | 387.79 | 17656 |
+| 2026-03-23T14:00:00+00:00 | 387.79 | 390.58 | 386.6 | 389.34 | 28256 |
+| 2026-03-23T15:00:00+00:00 | 389.34 | 391.26 | 383.96 | 384.13 | 26706 |
+| 2026-03-23T16:00:00+00:00 | 384.13 | 386.38 | 383.22 | 384.25 | 25633 |
+| 2026-03-23T17:00:00+00:00 | 384.25 | 386.84 | 382.41 | 386.2 | 19484 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-11T15:00:00+00:00 | 364.69 | 367.07 | 364.15 | 365.01 | 6075 |
-| 2026-09-11T16:00:00+00:00 | 365.01 | 366.43 | 363.88 | 364.58 | 5380 |
-| 2026-09-11T17:00:00+00:00 | 364.58 | 366.4 | 364.41 | 364.95 | 4331 |
-| 2026-09-11T18:00:00+00:00 | 364.95 | 365.41 | 363.89 | 365.02 | 4184 |
-| 2026-09-11T19:00:00+00:00 | 365.02 | 366.35 | 363.92 | 365.41 | 5147 |
+| 2026-09-22T15:00:00+00:00 | 376.09 | 376.88 | 375.3 | 376.68 | 5269 |
+| 2026-09-22T16:00:00+00:00 | 376.68 | 378.68 | 375.93 | 378.4 | 4623 |
+| 2026-09-22T17:00:00+00:00 | 378.4 | 379.34 | 377.52 | 379.17 | 4461 |
+| 2026-09-22T18:00:00+00:00 | 379.17 | 379.76 | 378.18 | 379.59 | 4222 |
+| 2026-09-22T19:00:00+00:00 | 379.59 | 380.26 | 378.22 | 378.73 | 4865 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **TSLA** archive on **[getdata.finance](https://getdata.finance/datasets/tsla)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **21,447** rows at `1h`, plus all other timeframes in the same ZIP.
+The complete **TSLA** archive on **[getdata.finance](https://getdata.finance/datasets/tsla)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **21,496** rows at `1h`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full TSLA dataset on getdata.finance](https://getdata.finance/datasets/tsla)**
 
